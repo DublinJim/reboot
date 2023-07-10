@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1724924-5e6e-4f3f-a52a-d52afd431d09" name="Changes" comment="setup finished">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" afterDir="false" />
+    <list default="true" id="e1724924-5e6e-4f3f-a52a-d52afd431d09" name="Changes" comment="has bindings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,22 +75,20 @@
       <option name="project" value="LOCAL" />
       <updated>1688137009661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="has bindings">
+      <option name="closed" value="true" />
+      <created>1689014909414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689014909414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup finished" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="has bindings" />
+    <option name="LAST_COMMIT_MESSAGE" value="has bindings" />
   </component>
 </project>

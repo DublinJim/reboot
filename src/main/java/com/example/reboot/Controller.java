@@ -3,10 +3,7 @@ package com.example.reboot;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Slider;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
@@ -25,6 +22,7 @@ public class Controller implements Initializable {
     public Slider sldr1;
     public GridPane b;
     public Button bindBtn;
+    public TextArea txtrea;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -38,44 +36,47 @@ public class Controller implements Initializable {
         choiceBox.setValue("Volume");
         choiceBox.getItems().addAll(choice);
         choiceBox.setOnAction(actionEvent -> {
-            String gotChoice = choiceBox.getValue();
-            txt1.setText(gotChoice);
-
-
-            Float volLvl;
-            switch (gotChoice) {
-                case "Off":
-                    volLvl = 0.0f;
-                    break;
-                case "Min":
-                    volLvl = 1.0f;
-                    break;
-                case "Max":
-                    volLvl = 2.0f;
-                    break;
-
-                case "Spinal Tap":
-                    volLvl = 3.0f;
-                    break;
-                default:
-                    volLvl = 0.4f;
-            }
-
-            txt2.setText(String.valueOf(volLvl));
+            getVolValues();
         });
     }//init
 
+    private void getVolValues() {
+        String gotChoice = choiceBox.getValue();
+        txt1.setText(gotChoice);
+
+
+        Float volLvl;
+        switch (gotChoice) {
+            case "Off":
+                volLvl = 0.0f;
+                break;
+            case "Min":
+                volLvl = 1.0f;
+                break;
+            case "Max":
+                volLvl = 2.0f;
+                break;
+
+            case "Spinal Tap":
+                volLvl = 3.0f;
+                break;
+            default:
+                volLvl = 0.4f;
+        }
+
+        txt2.setText(String.valueOf(volLvl));
+        txtrea.setText("The choice-box has text values which are then used to create double values as seen");
+    }
+
     private void bindThis(ActionEvent actionEvent) {
-//binding rules ..  it must be a Simple node
+
         SimpleIntegerProperty x = new SimpleIntegerProperty(2);
         SimpleIntegerProperty y = new SimpleIntegerProperty();
-
-        //bind the value of X to Y and add 5 to show the change
         y.bind(x.add(5));
 
-        //output result
         txt1.setText("X = "+x.getValue());
         txt2.setText("y = "+y.getValue());
+        txtrea.setText("Value X is set to 2 and value Y is set to X +5");
     }
 
 
@@ -83,6 +84,7 @@ public class Controller implements Initializable {
     private void makeVolSlider(ActionEvent actionEvent) {
         double val = sldr1.getValue();
         txt1.setText(String.valueOf(val));
+
     }
 
     public void setPos() {
@@ -94,6 +96,7 @@ public class Controller implements Initializable {
             txt2.setText("Fullscreen off");
         }
         txt1.setText(String.valueOf(pos));
+        txtrea.setText("Temp values....    A temp variable is set to the original value and on activation of the button it is changes  and then put back as the checkbox in unselected.");
     }
 }//end
 
