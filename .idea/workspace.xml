@@ -7,6 +7,7 @@
     <list default="true" id="e1724924-5e6e-4f3f-a52a-d52afd431d09" name="Changes" comment="has bindings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reboot/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reboot/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="2RvhN2bE4uDWzEfjk9c6SRKI3V8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

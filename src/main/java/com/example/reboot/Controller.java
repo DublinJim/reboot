@@ -27,17 +27,17 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
        bindBtn.setOnAction(this::bindThis);
-
         txt1.setFont(Font.font(10));
-
         btn1.setOnAction(this::makeVolSlider);
-
+        Tooltip tooltip = new Tooltip("Allow the variable to be set for another node ");
+bindBtn.setTooltip(tooltip);
         String[] choice = {"Off", "Min", "Max", "Spinal Tap"};
         choiceBox.setValue("Volume");
         choiceBox.getItems().addAll(choice);
-        choiceBox.setOnAction(actionEvent -> {
-            getVolValues();
-        });
+
+        choiceBox.setOnAction(actionEvent -> getVolValues());
+
+
     }//init
 
     private void getVolValues() {
