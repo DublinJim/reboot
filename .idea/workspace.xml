@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1724924-5e6e-4f3f-a52a-d52afd431d09" name="Changes" comment="has bindings">
+    <list default="true" id="e1724924-5e6e-4f3f-a52a-d52afd431d09" name="Changes" comment="text area">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reboot/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/reboot/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/reboot/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/reboot/rebootFxml.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="2RvhN2bE4uDWzEfjk9c6SRKI3V8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689014909414</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="text area">
+      <option name="closed" value="true" />
+      <created>1689016046156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689016046157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup finished" />
     <MESSAGE value="has bindings" />
-    <option name="LAST_COMMIT_MESSAGE" value="has bindings" />
+    <MESSAGE value="text area" />
+    <option name="LAST_COMMIT_MESSAGE" value="text area" />
   </component>
 </project>
